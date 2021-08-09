@@ -19,3 +19,65 @@ body {
     vertical-align: middle;
     text-align: center;
 }
+
+.profile {
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+#about{
+    padding: 25px;
+    text-align: center;
+}
+.line{
+    background-color: black;
+    width: 100px;
+    height: 7px;
+    margin: 8px auto;
+}
+p{
+    max-width: 650px;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 10px auto;
+}
+.menu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+.link{
+    padding: 10px 15px;
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    font-family: cursive;
+}
+.link:hover{
+    background-color: cadetblue;
+}
+a{
+   text-decoration: none;
+    color:aqua;
+}
