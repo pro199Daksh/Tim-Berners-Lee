@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    margin-top: 700px;
+}
+
+#welcome {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(orange 20%, yellow 50%, orange 80%);
+    opacity: o.9;
+    height: 700px;
+    width: 100%;
+    display: table;
+}
+
+.header {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
