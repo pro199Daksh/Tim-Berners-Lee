@@ -62,7 +62,7 @@ p{
     margin: 10px auto;
 }
 .menu{
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     z-index: 10;
@@ -80,4 +80,17 @@ p{
 a{
    text-decoration: none;
     color:aqua;
+}
+#videos{
+    background-color:lightblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+.article:hover{
+   color: blueviolet; 
+}
+#writings{
+    background-color: orange;
+    height: 400px;
 }
